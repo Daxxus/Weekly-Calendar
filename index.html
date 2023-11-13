@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calendar</title>
+</head>
+
+<body>
+
+    <div id="container" data-index="1">
+        <header id="header">
+            <div id="monthDisplay"></div>    
+            <button id="clearNotes">Wyczyść wszystko</button>       
+        </header>
+
+        <div id="weekdays">
+            <div>Pon: <span class="span"></span></div>
+            <div>Wt: <span class="span"></span></div>
+            <div>Śr: <span class="span"></span></div>
+            <div>Czw: <span class="span"></span></div>
+            <div>Pt: <span class="span"></span></div>
+
+        </div>
+
+        <div id="hours">
+            <div>8 AM</div>
+            <div>9 AM</div>
+            <div>10 AM</div>
+            <div>11 AM</div>
+            <div>12 PM</div>
+            <div>13 PM</div>
+            <div>14 PM</div>
+            <div>15 PM</div>
+            <div>16 PM</div>
+            <div>17 PM</div>
+            <div>18 PM</div>
+            <div>19 PM</div>
+            <div>20 PM</div>
+        </div>
+
+        <main id="calendar"></main>
+
+        <div class="btns">
+            <button id="backButton">Poprzedni</button>
+            <button id="today">Dziś</button>
+            <button id="nextButton">Następny</button>
+            <button id="addModal">Dodaj notatkę</button>
+        </div>
+    </div>
+
+    <section class="modalContainer " id="modalContainer">
+        <h3>Dodaj lub edytuj nowe spotkanie </h3>
+        <form action="#" class="form" id="form">
+            <label for="evenTitle">Tytuł spotkania:</label>
+            <input type="text" id="evenTitle" placeholder="Podaj treść..">
+            <label for="dateStart">Godz start:</label>
+            <input type="datetime-local" id="dateStart">
+            <label for="dateEnd">Godz koniec:</label>
+            <input type="datetime-local" id="dateEnd">
+            <div class="modalBtns">
+                <button type="button" id="add">Dodaj</button>
+                <button type="button" id="delete">Usuń</button>
+                <button type="button" id="cancel">Anuluj</button>
+            </div>
+        </form>
+    </section>
+    <section class="modalContainer2 " id="modalContainer2">
+        <h3>Dodaj nowe spotkanie</h3>
+        <form action="#" class="form" id="form">
+            <label for="evenTitle2">Tytuł spotkania:</label>
+            <input type="text" id="evenTitle2" placeholder="Podaj treść..">
+            <label for="dateStart2">Godz start:</label>
+            <input type="datetime-local" id="dateStart2">
+            <label for="dateEnd2">Godz koniec:</label>
+            <input type="datetime-local" id="dateEnd2">
+            <div class="modalBtns">
+                <button type="button" id="add2">Dodaj</button>
+                <button type="button" id="cancel2">Anuluj</button>
+            </div>
+        </form>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
