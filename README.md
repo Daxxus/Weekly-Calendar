@@ -6,7 +6,7 @@
 
 #### Usage: As Calendar, You can make planes, notes on weekly basis by clicking either direct cell on the checker or the wright button. There are either other activities such as jumping to the next, previous week , clearing all or single notes and button for comming back to current day.
 
-#### App funcionality: There is an option to extend hours or even weekend cells on the checker (current default settings: Mon - Fri and 8AM till 8PM) depending on someone needs
+#### App functionality: There is an option to extend hours or even weekend cells on the checker (current default settings: Mon - Fri and 8AM till 8PM) depending on someone needs
 
 #### Inspiration: PortExe monthly calendar App
 
