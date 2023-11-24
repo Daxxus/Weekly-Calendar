@@ -136,36 +136,70 @@ div.note {
 	font-size: 10px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 375px) {
 	#container {
-		width: 250px;
+		width: 200px;
 	}
 	.btns button {
 		width: auto;
-		font-size: 10px;
-		margin-left: 15px;
+		font-size: 8px;
+		margin-left: 12px;
+		padding: 2px;
 	}
 	#hours div {
-		height: 20px;
+		height: 16px;
 	}
 	.day {
-		width: 50px;
-		height: 20px;
+		width: 40px;
+		height: 16px;
 	}
 	div.note {
-		font-size: 3px;
+		font-size: 2px;
 	}
 	#header {
-		font-size: 15px;
+		font-size: 12px;
 	}
 	body {
 		justify-content: start;
 	}
 	#clearNotes {
-		font-size: 10px;
+		font-size: 8px;
+	}
+	#weekdays {
+		font-size: 12px;
 	}
 }
-@media (max-width: 768px) {
+@media (min-width: 376px) and (max-width: 629px) {
+	#container {
+		width: 300px;
+	}
+	.btns button {
+		width: auto;
+		font-size: 12px;
+		margin-left: 18px;
+	}
+	#hours div {
+		height: 24px;
+	}
+	.day {
+		width: 60px;
+		height: 24px;
+	}
+	div.note {
+		font-size: 4px;
+	}
+	#header {
+		font-size: 18px;
+	}
+	body {
+		justify-content: start;
+	}
+	#clearNotes {
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 630px) and (max-width: 920px) {
 	#container {
 		width: 500px;
 	}

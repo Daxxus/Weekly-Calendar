@@ -136,6 +136,7 @@ class Calendar {
 					daySq.append(this.div)
 				}
 
+				
 				daySq.addEventListener("click", (e) => {
 					this.showModal(e)
 					this.target = e.target
